@@ -19,7 +19,7 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <ProjectReference Include="..\Qorpent.Tools.ManifestGenerator\Qorpent.Tools.ManifestGenerator.csproj">
+        <ProjectReference Include="..\..\qorpent.sys.tools\Qorpent.Tools.ManifestGenerator\Qorpent.Tools.ManifestGenerator.csproj">
           <Name>Qorpent.Tools.ManifestGenerator</Name>
         </ProjectReference>
       </ItemGroup>

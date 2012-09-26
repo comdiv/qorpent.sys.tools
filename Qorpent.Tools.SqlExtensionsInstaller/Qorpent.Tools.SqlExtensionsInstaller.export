@@ -19,7 +19,7 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <ProjectReference Include="..\Qorpent.Tools.SqlExtensionsInstaller\Qorpent.Tools.SqlExtensionsInstaller.csproj">
+        <ProjectReference Include="..\..\qorpent.sys.tools\Qorpent.Tools.SqlExtensionsInstaller\Qorpent.Tools.SqlExtensionsInstaller.csproj">
           <Name>Qorpent.Tools.SqlExtensionsInstaller</Name>
         </ProjectReference>
       </ItemGroup>

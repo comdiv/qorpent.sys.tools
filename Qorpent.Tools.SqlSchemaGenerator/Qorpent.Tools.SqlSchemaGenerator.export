@@ -19,7 +19,7 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <ProjectReference Include="..\Qorpent.Tools.SqlSchemaGenerator\Qorpent.Tools.SqlSchemaGenerator.csproj">
+        <ProjectReference Include="..\..\qorpent.sys.tools\Qorpent.Tools.SqlSchemaGenerator\Qorpent.Tools.SqlSchemaGenerator.csproj">
           <Name>Qorpent.Tools.SqlSchemaGenerator</Name>
         </ProjectReference>
       </ItemGroup>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<IsTest>True</IsTest>
+    <Configuration>Debug</Configuration>
+    <ProjectGuid>{E3B2919C-BD7A-4D96-8794-10F4D8D89F1E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Qorpent.Tools.ManifestGenerator.Lib.Tests</RootNamespace>
+    <AssemblyName>Qorpent.Tools.ManifestGenerator.Lib.Tests</AssemblyName><AssemblyNameBase>Qorpent.Tools.ManifestGenerator.Lib</AssemblyNameBase>
+  </PropertyGroup>
+  <Import Project="..\commons\build.targets" />
+  <Import Project="*.import" />
+<ItemGroup><None Include="*.import" /><None Include="*.export" /></ItemGroup></Project>

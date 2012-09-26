@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<IsTool>True</IsTool>
+    <Configuration>Debug</Configuration>
+    <ProjectGuid>{C2653D6C-F960-4213-8765-DCEA4289D7DE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Qorpent.Tools.DslBuilder</RootNamespace>
+    <AssemblyName>Qorpent.Tools.DslBuilder</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <Import Project="..\commons\build.targets" />
+  <Import Project="*.import" />
+<ItemGroup><None Include="*.import" /><None Include="*.export" /></ItemGroup></Project>

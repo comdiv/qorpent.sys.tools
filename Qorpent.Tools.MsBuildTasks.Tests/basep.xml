@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Test">
+	<UsingTask AssemblyFile="$(AssemblyPath)" TaskName="QorpentDsl" />
+	<PropertyGroup>
+		<DslOutCodeDir Condition="'$(DslOutCodeDir)'==''">
+			$(MSBuildProjectDirectory)
+		</DslOutCodeDir>
+		<DslDir Condition="'$(DslDir)'==''">
+			$(MSBuildProjectDirectory)\dsl
+		</DslDir>
+		<DslType Condition="'$(DslType)'==''">Library</DslType>
+		<DslPreprocess Condition="'$(DslPreprocess)'==''">True</DslPreprocess>
+		<DslTraceOnly Condition="'$(DslTraceOnly)'==''">False</DslTraceOnly>
+	</PropertyGroup>
+	<Target Name="Test">
+		<QorpentDsl TraceOnly="$(DslTraceOnly)" Sources="@(DslSource)" Preprocess="$(DslPreprocess)"
+		            OutputCodeDir="$(DslOutCodeDir)" DslDir="$(DslDir)" DslType="$(DslType)" Lang="$(DslLang)" />
+	</Target>
+</Project>

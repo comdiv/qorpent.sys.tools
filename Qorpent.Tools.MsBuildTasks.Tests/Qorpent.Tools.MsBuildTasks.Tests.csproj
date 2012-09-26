@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<IsTest>True</IsTest>
+    <Configuration>Debug</Configuration>
+    <ProjectGuid>{9215FB26-3FC4-49D7-9B80-3F1D4EA2E2A4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Qorpent.Tools.MsBuildTasks.Tests</RootNamespace>
+    <AssemblyName>Qorpent.Tools.MsBuildTasks.Tests</AssemblyName><AssemblyNameBase>Qorpent.Tools.MsBuildTasks</AssemblyNameBase>
+  </PropertyGroup>
+  <Import Project="..\commons\build.targets" />
+  <Import Project="*.import" />
+  <ItemGroup>
+    <None Include="*.import" />
+    <None Include="Qorpent.Tools.MsBuildTasks.import" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="testp.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Qorpent.Core.Tests\Qorpent.Core.Tests.csproj">
+      <Project>{880F65EA-1A22-4672-A137-FFC912902046}</Project>
+      <Name>Qorpent.Core.Tests</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseTaskUsageTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Build" />
+    <Reference Include="Microsoft.Build.Engine" />
+    <Reference Include="Microsoft.Build.Framework" />
+    <Reference Include="Microsoft.Build.Utilities.v4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="src1.bxl" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="basep.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="mainp.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="trydsl.xslt">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

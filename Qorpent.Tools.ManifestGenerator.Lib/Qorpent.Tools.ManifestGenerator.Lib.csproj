@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<IsTool>True</IsTool>
+    <Configuration>Debug</Configuration>
+    <ProjectGuid>{AA7A9134-0702-48CB-AA75-CEA193B494C3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Qorpent.Tools.ManifestGenerator.Lib</RootNamespace>
+    <AssemblyName>Qorpent.Tools.ManifestGenerator.Lib</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ManifestBxlGenerator.cs" />
+    <Compile Include="ManifestBxlGeneratorApplication.cs" />
+    <Compile Include="ManifestBxlGeneratorOptions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <Import Project="..\commons\build.targets" />
+  <Import Project="*.import" />
+<ItemGroup><None Include="*.import" /><None Include="*.export" /></ItemGroup></Project>

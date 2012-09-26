@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<IsTool>True</IsTool>
+    <Configuration>Debug</Configuration>
+    <ProjectGuid>{16927A78-954B-4086-B818-8A510C27778B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Qorpent.Tools.ManifestGenerator</RootNamespace>
+    <AssemblyName>Qorpent.Tools.ManifestGenerator</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <Import Project="..\commons\build.targets" />
+  <Import Project="*.import" />
+<ItemGroup><None Include="*.import" /><None Include="*.export" /></ItemGroup></Project>

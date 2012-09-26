@@ -30,6 +30,6 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
-  <Import Project="..\commons\build.targets" />
+  <Import Project="..\..\qorpent.sys\commons\build.targets" />
   <Import Project="*.import" />
 <ItemGroup><None Include="*.import" /><None Include="*.export" /></ItemGroup></Project>

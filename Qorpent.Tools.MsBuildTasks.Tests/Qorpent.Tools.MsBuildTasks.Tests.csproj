@@ -18,8 +18,7 @@
     <EmbeddedResource Include="testp.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Qorpent.Core.Tests\Qorpent.Core.Tests.csproj">
-      <Project>{880F65EA-1A22-4672-A137-FFC912902046}</Project>
+    <ProjectReference Include="..\..\qorpent.sys\Qorpent.Core.Tests\Qorpent.Core.Tests.csproj">
       <Name>Qorpent.Core.Tests</Name>
     </ProjectReference>
   </ItemGroup>

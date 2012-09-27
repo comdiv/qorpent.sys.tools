@@ -1,6 +1,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<Project Include=".\**\*.csproj" Exclude=".\**\*.Tests.csproj" />
+		
 		<Project Include=".\**\*.Tests.csproj" />
 	</ItemGroup>
 	<Target Name="Build">

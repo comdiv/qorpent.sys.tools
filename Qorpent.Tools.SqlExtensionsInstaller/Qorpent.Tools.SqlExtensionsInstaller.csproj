@@ -7,7 +7,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Qorpent.Tools.SqlExtensionsInstaller</RootNamespace>
     <AssemblyName>Qorpent.Tools.SqlExtensionsInstaller</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup>
@@ -30,6 +30,6 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
-  <Import Project="..\..\qorpent.sys\commons\build.targets" />
-  <Import Project="*.import" />
+   <Import Project="..\..\qorpent.kernel\build.targets" />
+  
 <ItemGroup><None Include="*.import" /><None Include="*.export" /></ItemGroup></Project>

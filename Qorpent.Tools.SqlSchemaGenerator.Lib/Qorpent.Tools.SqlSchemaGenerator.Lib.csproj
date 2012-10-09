@@ -8,6 +8,6 @@
     <RootNamespace>Qorpent.Tools.SqlSchemaGenerator.Lib</RootNamespace>
     <AssemblyName>Qorpent.Tools.SqlSchemaGenerator.Lib</AssemblyName>
   </PropertyGroup>
-  <Import Project="..\..\qorpent.sys\commons\build.targets" />
-  <Import Project="*.import" />
+   <Import Project="..\..\qorpent.kernel\build.targets" />
+  
 <ItemGroup><None Include="*.import" /><None Include="*.export" /></ItemGroup></Project>

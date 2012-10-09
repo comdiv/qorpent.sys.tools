@@ -8,8 +8,8 @@
     <RootNamespace>Qorpent.Tools.MsBuildTasks.Tests</RootNamespace>
     <AssemblyName>Qorpent.Tools.MsBuildTasks.Tests</AssemblyName><AssemblyNameBase>Qorpent.Tools.MsBuildTasks</AssemblyNameBase>
   </PropertyGroup>
-  <Import Project="..\..\qorpent.sys\commons\build.targets" />
-  <Import Project="*.import" />
+   <Import Project="..\..\qorpent.kernel\build.targets" />
+  
   <ItemGroup>
     <None Include="*.import" />
     <None Include="Qorpent.Tools.MsBuildTasks.import" />

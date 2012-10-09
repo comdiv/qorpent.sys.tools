@@ -8,6 +8,6 @@
     <RootNamespace>Qorpent.Tools.ManifestGenerator.Lib.Tests</RootNamespace>
     <AssemblyName>Qorpent.Tools.ManifestGenerator.Lib.Tests</AssemblyName><AssemblyNameBase>Qorpent.Tools.ManifestGenerator.Lib</AssemblyNameBase>
   </PropertyGroup>
-  <Import Project="..\..\qorpent.sys\commons\build.targets" />
-  <Import Project="*.import" />
+   <Import Project="..\..\qorpent.kernel\build.targets" />
+  
 <ItemGroup><None Include="*.import" /><None Include="*.export" /></ItemGroup></Project>

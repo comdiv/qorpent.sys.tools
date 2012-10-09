@@ -9,8 +9,8 @@
     <AssemblyName>Qorpent.Tools.MsBuildTasks</AssemblyName>
 	<UseManifest>false</UseManifest>
   </PropertyGroup>
-  <Import Project="..\..\qorpent.sys\commons\build.targets" />
-  <Import Project="*.import" />
+   <Import Project="..\..\qorpent.kernel\build.targets" />
+  
   <ItemGroup>
     <None Include="*.import" />
     <None Include="Qorpent.Tools.MsBuildTasks.export" />

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<IsTest>True</IsTest>
+    <Configuration>Debug</Configuration>
+	<ProjectGuid>2CDD5F96-2CFD-4DFA-B627-CF1916F2B76F</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>qorpent.sys.tools.xslt.Tests</RootNamespace>
+    <AssemblyName>qorpent.sys.tools.xslt.Tests</AssemblyName>
+	<AssemblyNameBase>qorpent.sys.tools.xslt</AssemblyNameBase>
+  </PropertyGroup>
+   <ItemGroup>
+	<None Include="*.import" />
+	<None Include="*.export" />
+	<EmbeddedResource Include=".\**\*.*resource"/>
+ </ItemGroup>
+  <Import Project="..\..\qorpent.kernel\build.targets" />
+
+</Project>

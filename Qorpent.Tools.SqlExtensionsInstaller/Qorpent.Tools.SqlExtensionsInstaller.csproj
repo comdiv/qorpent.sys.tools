@@ -7,7 +7,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Qorpent.Tools.SqlExtensionsInstaller</RootNamespace>
     <AssemblyName>Qorpent.Tools.SqlExtensionsInstaller</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup>

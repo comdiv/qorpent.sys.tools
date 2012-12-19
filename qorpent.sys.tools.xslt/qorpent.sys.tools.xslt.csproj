@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration>Debug</Configuration>
+    <ProjectGuid>{D937FC97-9989-4EFD-B1A7-06384F474D6E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>qorpent.sys.tools.xslt</RootNamespace>
+    <AssemblyName>qxslt</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>qorpent.sys.tools.xslt.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="*.import" />
+    <None Include="*.export" />
+    <EmbeddedResource Include=".\**\*.*resource" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EXsltParameters.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <Import Project="..\..\qorpent.kernel\build.targets" />
+</Project>
